@@ -243,6 +243,8 @@ h3 {font-size: var(--fs-h3);}
 
     .intro__img{
         grid-area: img;
+        border-radius: 50%;
+        border: 5px solid var(--clr-accent);
         min-width: 250px;
         position: relative;
         z-index: 2;
@@ -395,8 +397,8 @@ h3 {font-size: var(--fs-h3);}
 
 
 .footer{
-    background: #111;
-    color: var(--clr-accent);
+    background: #ffffff;
+    color: var(--clr-dark);
     text-align: center;
     padding: 2.5em 0;
     font-weight: var(--fw-bold);
@@ -430,11 +432,150 @@ h3 {font-size: var(--fs-h3);}
 }
 
 .social-list__item{
-    margin: 0 .5em;
+    position: relative;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, 0.55, 0.265, 1.55);
 }
 
+.social-list__ing:hover{
+    position: relative;
+    background: linear-gradient(135deg, #F56040, #BC2A8D);
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, 0.55, 0.265, 1.55);
+}
+
+.social-list__ing{
+    position: relative;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, 0.55, 0.265, 1.55);
+}
+
+
+.social-list__wa{
+    position: relative;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, 0.55, 0.265, 1.55);
+}
+
+.social-list__wa:hover{
+    position: relative;
+    background: #25d366;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, 0.55, 0.265, 1.55);
+}
+
+.social-list__twt{
+    position: relative;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, 0.55, 0.265, 1.55);
+}
+
+.social-list__twt:hover{
+    position: relative;
+    background: #1DA1F2;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, 0.55, 0.265, 1.55);
+}
+
+#wa:hover{
+    color: #ffffff;
+}
+
+#twt{
+    color: #1DA1F2;
+}
+
+#twt:hover{
+    color: #ffffff;
+}
+
+#ig:hover{
+    color: #ffffff;
+}
 .social-list__link{
     padding: .5em;
+    size: 40px;
 }
 
 .port-item{
